@@ -1,0 +1,102 @@
+:root {
+    --navbar-text-color: white;
+    --text-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: var(--navbar-text-color);
+    padding: 1rem;
+    justify-content: space-between;
+    height: 4vh;
+}
+
+.navbar-logo {
+    font-size: 1.75rem;
+}
+
+.navbar-logo a {
+    text-decoration: none;
+    color: var(--navbar-text-color);
+}
+
+.navbar-logo i {
+    color: red;
+}
+
+.navbar-icons {
+    display: flex;
+    padding-left: 0;
+    font-size: 1.75rem;
+}
+
+.navbar-icons li {
+    list-style: none;
+    padding-right: 0.75em;
+}
+
+.video {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.video img {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.info-hashtag {
+    display: flex;
+    margin: 8px 0 0 0;
+    padding: 0 12px;
+}
+
+.info-hashtag li {
+    list-style: none;
+    padding-right: 12px;
+}
+
+.info-hashtag a {
+    text-decoration: none;
+    color: #065FD4;
+    font-size: 1rem;
+}
+
+.info-title {
+    display: flex;
+    margin-top: 4px;
+    padding: 0 12px;
+}
+
+.info-title i {
+    background-color: antiquewhite;
+    height: 20px;
+}
+
+.info h5 {
+    color: gray;
+    padding: 0 12px;
+    margin: 3px 0 0 0;
+}
+
+.info-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-icons li {
+    list-style: none;
+}
+
+.info hr {
+    margin: 0 12px;
+}
