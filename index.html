@@ -5,150 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <title>youtube ui clone</title>
     <script src="https://kit.fontawesome.com/e6f2333130.js" crossorigin="anonymous"></script>
     <script src="main.js" defer></script>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <i class="fa-solid fa-bars"></i>
-        <div class="website">
-            <i class="fa-brands fa-youtube"></i>
-            <span class="webTitle">Youtube</span>
-        </div>
-        <ul class="headerNav">
-            <li>
-                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-            </li>
-            <li>
-                <a href=""><i class="fa-solid fa-microphone"></i></a>
-            </li>
-            <li>
-                <a href=""><i class="fa-sharp fa-solid fa-plus"></i></a>
-            </li>
-            <li>
-                <a href=""><i class="fa-regular fa-bell"></i></a>
-            </li>
-            <li>
-                <a href=""><img src="image/user-profile.jpg" alt=""></a>
-            </li>
-        </ul>
-    </header>
 
-    <!-- Video -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href=""><i class="fa-brands fa-youtube"></i> Youtube</a>
+        </div>
+
+        <ul class="navbar-icons">
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+        </ul>
+    </nav>
+
     <section class="video">
-        <img src="image/smile-main.png" alt="">
+        <img src="image/nammse.png" alt="[NAMMSE] Earlsome Mix Playlist_97">
     </section>
 
-    <!-- Video info & Next playlist -->
     <main class="container">
-        <!-- Video info -->
-        <section class="info">
-            <!-- Hashtag -->
-            <ul class="hashtag">
-                <li><a href="">#멍멍테이</a></li>
-                <li><a href="">#한우먹방</a></li>
-                <li><a href="">#JMT</a></li>
+        <sec class="info">
+            <ul class="info-hashtag">
+                <li><a href="">#나얼</a></li>
+                <li><a href="">#나얼의음악세계</a></li>
+                <li><a href="">#NAMMSE</a></li>
             </ul>
-            <div class="videoTitleAndMoreBtn">
-                <!-- Video title -->
-                <span class="videoTitle">
-                    멍멍테이 한우먹방: 엄마 생일 기념 가족끼리 한우 먹으러 갔어요 | 테이 한우 먹고 왕 신남 |
-                    테이 다음 생일 선물은 한우다 | 멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍멍
-                </span>
-                <!-- To see more details -->
-                <button class="moreBtn"><i class="fa-solid fa-caret-down"></i></button>
-            </div>
-            <span class="view">조회수 648만회 3개월 전</span>
-            <!-- Action buttons -->
-            <ul class="actions">
-                <li>
-                    <button>
-                        <i class="fa-solid fa-thumbs-up"></i><span>378만</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <i class="fa-solid fa-thumbs-down"></i><span>싫어요</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <i class="fa-sharp fa-solid fa-share"></i><span>공유</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <i class="fa-solid fa-download"></i><span>오프라인 저장</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <i class="fa-solid fa-scissors"></i><span>클립</span>
-                    </button>
-                </li>
-                <li>
-                    <button>
-                        <i class="fa-sharp fa-solid fa-file-circle-plus"></i><span>저장</span>
-                    </button>
-                </li>
-            </ul>
-            <!-- Channel information -->
-            <div class="channel">
-                <img src="image/profile.jpg" alt="">
-                <div class="channelInfo">
-                    <span>멍멍테이</span>
-                    <span>구독자 123만명</span>
+
+            <div class="info-title">
+                <div class="main-video-description">
+                    [NAMMSE] Earlsome Mix Playlist_97 (나얼 & 에코브릿지
+                    [Diggin' On Air] 📻 매주 토요일 저녁 7시 (Melon App) & 나얼
+                    서로를 위한 것 2020.12.21(Mon) 6PM Released))
                 </div>
-                <button class="subscribe">구독중</button>
+                <i class="fa-solid fa-caret-down"></i>
             </div>
-        </section>
-        <!-- Next Playlist -->
-        <section class="nextPlaylist">
-            <!-- Playlist keyword -->
-            <ul class="keywordBtn">
-                <li><button>모두</button></li>
-                <li><button>내 검색결과</button></li>
-                <li><button>관련 콘텐츠</button></li>
+
+            <h5>조회수 7,025회 2022. 10. 7.</h5>
+
+            <ul class="info-icons">
+                <li><i class="fa-solid fa-thumbs-up"></i> 309</li>
+                <li><i class="fa-solid fa-thumbs-down"></i> 싫어요</li>
+                <li><i class="fa-solid fa-share"></i> 공유</li>
+                <li><i class="fa-solid fa-square-plus"></i> 저장</li>
+                <li><i class="fa-solid fa-scissors"></i> 클립</li>
             </ul>
-            <!-- Playlist info -->
-            <ul class="nextVideos">
-                <li>
-                    <img src="image/swimming.JPG" alt="">
-                    <div class="nextVideoInfo">
-                        <span class="nextVideoTitle">테이가 수영을 시작했어요 | 멍멍테이 수영 브이로그</span>
-                        <span class="nextVideoChannel">멍멍테이</span>
-                        <span class="nextVideoView">397만회</span>
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/nammese_profile.jpg" alt="">
+                    <div class="channel-info">
+                        NAMMSE 나얼의 음악세계
+                        <h5>구독자 8.95만명</h5>
+                    </div>
+                </div>
+                <button>구독중</button>
+            </div>
+        </sec>
+
+        <sec class="next">
+            <h4>Up next</h4>
+            <ul class="next-videos">
+                <li class="next-video">
+                    <img src="image/hqdefault.webp" alt="">
+                    <div class="next-video-info">
+                        <span class="next-video-title">[NAMMSE] Earlsome Mix Playlist_96</span>
+                        <span class="next-video-channel">NAMMSE 나얼의 음악세계</span>
+                        <span class="next-video-view">조회수 8.7천회</span>
                     </div>
                 </li>
-                <li>
-                    <img src="image/sleeping.jpg" alt="">
-                    <div class="nextVideoInfo">
-                        <span class="nextVideoTitle">졸리니깐 건들지마라멍 | 멍멍테이 코고는 중</span>
-                        <span class="nextVideoChannel">멍멍테이</span>
-                        <span class="nextVideoView">190만회</span>
+                <li class="next-video">
+                    <img src="image/hqdefault (1).webp" alt="">
+                    <div class="next-video-info">
+                        <span class="next-video-title">Playlist 어느덧 가을이 찾아왔어</span>
+                        <span class="next-video-channel">때껄룩 TAKE A LOOK</span>
+                        <span class="next-video-view">조회수 97만회</span>
                     </div>
                 </li>
-                <li>
-                    <img src="image/baby.jpg" alt="">
-                    <div class="nextVideoInfo">
-                        <span class="nextVideoTitle">테이가 우리 집에 온 날 | 멍멍테이 견생 2개월차</span>
-                        <span class="nextVideoChannel">멍멍테이</span>
-                        <span class="nextVideoView">1004만회</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="image/sunrise.jpg" alt="">
-                    <div class="nextVideoInfo">
-                        <span class="nextVideoTitle">테이가 강원도 강릉에 왔어요 | 일어나자마자 일출보러 나온 부지런한 강아지 | 멍멍테이 강릉 여행</span>
-                        <span class="nextVideoChannel">멍멍테이</span>
-                        <span class="nextVideoView">856만회</span>
+                <li class="next-video">
+                    <img src="image/hqdefault (2).webp" alt="">
+                    <div class="next-video-info">
+                        <span class="next-video-title">[NAMMSE] Earlsome Mix Playlist_37</span>
+                        <span class="next-video-channel">NAMMSE 나얼의 음악세계</span>
+                        <span class="next-video-view">조회수 3만회</span>
                     </div>
                 </li>
             </ul>
-        </section>
+        </sec>
     </main>
+    
 </body>
 </html>
