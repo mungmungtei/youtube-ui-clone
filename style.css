@@ -130,6 +130,12 @@ body {
     color: rgb(78, 75, 75);
 }
 
+.next h4 {
+    color: gray;
+    padding-left: 12px;
+    margin: 15px 0;
+}
+
 .next-videos li {
     padding-left: 0;
     list-style: none;
@@ -162,4 +168,18 @@ body {
     color: gray;
     font-weight: bold;
     font-size: 0.75rem;
+}
+
+@media screen and (min-width: 48rem) {
+    .container {
+        display: flex;
+    }
+
+    .info {
+        flex-basis: 50%;
+    }
+
+    .next {
+        flex-basis: 50%;
+    }
 }
